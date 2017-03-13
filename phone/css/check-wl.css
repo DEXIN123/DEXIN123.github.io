@@ -1,0 +1,78 @@
+body,html{
+	width: 100%;height: 100%;
+	background: #fff;
+}
+.container{
+	width: 100%;height: 100%;
+	box-sizing: border-box;
+	padding:1.234rem 0 ;
+	position: relative;
+}
+header{
+	position: absolute;
+	top:0;left:0;
+	width: 94%;
+	height: 1.234rem;
+	padding:0 3%;
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+	font-size:0.469rem;
+	border-bottom:1px solid #eee; 
+}
+header>a{
+	display: inline-block;
+	width: 0.4688rem;
+	height: 1.2344rem;
+	line-height: 1.2344rem;
+	font-family: "SimSum";
+}
+
+header>p{
+	flex: 1;
+	text-align: center;
+	line-height:1.2344rem; 
+}
+.content{
+	width: 100%;
+	overflow-x: hidden;
+}
+.wl_meg{
+	width:92%;
+	padding: 0 4%;
+}
+.wl_meg>p{
+	padding:22px 0 ;
+	font-size: 0.344rem;
+}
+.meg{
+	width: 100%;
+	background: url(../img/wl/bg_wuliu.png) 0.188rem 0 no-repeat;	
+}
+ul>li>span{
+	
+	display:block;
+	width:0.234rem;height: 0.234rem;
+	background: #ddd;
+	border-radius:100px; 
+	border: 3px solid #fff;
+}
+.meg li{
+	height: 1.562rem;
+	display: flex;
+	justify-content:space-between;
+	margin-top: 0.234rem;
+	font-size: 0.281rem;
+	color: #999;
+}
+.meg li div{
+	width: 8.438rem;
+	border-bottom:1px solid #ddd; 
+}
+.color_green{
+	color: #b0d06b;
+}
+.color1{
+	background:#b0d06b; 
+	border: 3px solid #d8f29e;
+}

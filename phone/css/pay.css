@@ -1,0 +1,139 @@
+body,html{
+	width: 100%;height: 100%;
+	background: #fff;
+}
+.container{
+	width: 100%;height: 100%;
+	box-sizing: border-box;
+	padding:1.234rem 0 ;
+	position: relative;
+}
+header{
+	position: absolute;
+	top:0;left:0;
+	width: 94%;
+	height: 1.234rem;
+	padding:0 3%;
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+	font-size:0.469rem;
+	border-bottom:1px solid #eee; 
+}
+header>a{
+	display: inline-block;
+	width: 0.4688rem;
+	height: 1.2344rem;
+	line-height: 1.2344rem;
+	font-family: "SimSum";
+}
+
+header>p{
+	flex: 1;
+	text-align: center;
+	line-height:1.2344rem; 
+}
+.content{
+	width: 100%;
+}
+.balance{
+	width: 94%;
+	padding:0 3%;
+	border-top:1px solid #eee; 
+	border-bottom:1px solid #eee; 
+	color: #999;
+}
+.balance li{
+	height: 1.2344rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.balance li:nth-child(4) i{
+	display:inline-block;
+	width: 0.5938rem;height: 0.5469rem;
+	background: url(../img/icon_tuijm.png) 0 0 no-repeat ;
+	position: absolute;
+	top:5.0rem;right: 0;
+	text-align:right;
+	color: #fff;
+}
+.balance li:nth-child(n+1){
+	border-top:1px solid #eee; 
+}
+
+.balance li>em{
+	display: inline-block;
+	width: 1.5625rem;
+	height: 1.2344rem;
+	padding-left: 0.6562rem;
+	line-height:  1.2344rem;
+}
+ul li p>span,ul li>span{
+	display:inline-block;
+	width: 0.391rem;height: 0.391rem;
+	border:1px solid #CCC;
+	border-radius:100px;
+	text-align:center;
+	line-height:0.391rem; 
+	background:#fff;
+	color: #fff;
+	margin-right:0.234rem;
+	font-family: "SimSum";
+}
+/*.balance li p>.redshow{
+	color: #fff;
+	background:#ff2150;
+	border:1px solid #ff2150;
+}*/
+.redshow{
+	color: #fff;
+	background:#ff2150;
+	border:1px solid #ff2150;
+}
+
+.balance li:nth-child(1) em{
+	background: url(../img/icon_money.png) 0.0781rem center no-repeat;
+	background-size:0.5156rem 0.5156rem;
+}
+.balance li:nth-child(2) em{
+	background: url(../img/icon_price_01.png) 0.0781rem center no-repeat;
+	background-size:0.5156rem 0.5156rem;
+}
+.balance li:nth-child(3) em{
+	background: url(../img/icon_price_02.png) 0.0781rem center no-repeat;
+	background-size:0.5156rem 0.5156rem;
+}
+.balance li:nth-child(4) em{
+	background: url(../img/icon_price_03.png) 0.0781rem center no-repeat;
+	background-size:0.5156rem 0.5156rem;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;left:0;
+	width:100%;
+	height: 1.234rem;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+}
+footer>div,footer>a{
+	width: 30%;
+	height: 1.234rem;
+	text-indent: 0.469rem;
+	line-height:1.234rem;
+}
+footer>div:nth-of-type(1){
+	font-size:0.391rem;
+	color: #ff2150;
+}
+footer>a{
+	display: block;
+	background:#ff2150;
+	text-align: center;
+	line-height:1.234rem;
+	font-size: 0.469rem;
+	text-indent: 0;
+	color:#fff;
+}

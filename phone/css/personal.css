@@ -1,0 +1,239 @@
+html,body.container{
+	width:100%;
+	height: 100%;
+}
+.container{
+	box-sizing: border-box;
+	padding-bottom:1.234rem;
+}
+footer{
+	background:#fff;
+	border-top:1px solid #eee; 
+	position: absolute;
+	bottom:0;left:0;
+	width: 94%;
+	height: 1.234rem;
+	padding:0 3%;
+}
+footer ul{
+	width: 100%;
+	display:flex;
+}
+footer ul li{
+	width:25%;
+	height: 1.234rem;
+	text-align: center;
+	padding-top: 0.759rem;
+	box-sizing: border-box;
+}
+footer ul li:nth-of-type(1){
+	background: url(../img/bottom/icon_btm_01.png) center 0.188rem no-repeat;
+	background-size:0.578rem 0.531rem;
+}
+footer ul li:nth-of-type(2){
+	background: url(../img/bottom/icon_btm_02.png) center 0.188rem no-repeat;
+	background-size:0.578rem 0.531rem;
+}
+footer ul li:nth-of-type(3){
+	background: url(../img/bottom/icon_btm_03.png) center 0.188rem no-repeat;
+	background-size:0.578rem 0.531rem;
+}
+footer ul li:nth-of-type(4){
+	background: url(../img/bottom/icon_btm_04.png) center 0.188rem no-repeat;
+	background-size:0.578rem 0.531rem;
+}
+header{
+	width: 100%;
+	height: 2.25rem; 
+	background: url(../img/personal/bg_personal.png) center center no-repeat;
+	background-size: 10.0rem 2.25rem;
+}
+header ul{
+	padding:0 3%;
+	width: 94%;
+	height: 2.25rem; 
+	display:flex;
+	justify-content: flex-start;
+	align-items:center;
+}
+.icon{
+	width: 1.156rem;
+	height: 1.156rem;
+	border-radius:100px;
+	border:0.031rem solid #fff; 
+}
+.icon img{
+	width: 1.156rem;
+	height: 1.156rem;
+}
+header ul li:nth-of-type(2){
+	margin-left: 0.469rem;
+	color: #fff;
+	font-size: 0.234rem;
+}
+header ul li:nth-of-type(2) p:nth-of-type(1){
+	font-size: 0.438rem;
+
+}
+
+.content{
+	width:100%;
+	height: 100%;
+}
+.list_title{
+	width: 94%;
+	height: 0.922rem;
+	padding:0 3%;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	border-bottom: 1px solid #ddd;
+}
+.list_title *{
+	display:block;
+	width:2.344rem;
+	height:0.5rem;
+}
+.list_title>span{
+	line-height: 0.5rem;
+	text-align: center;
+	font-size:0.344rem;
+	background: url(../img/personal/icon_1.png) 0 center no-repeat;
+	background-size:0.469rem 0.328rem;
+	text-indent:0.312rem;
+}
+.list_title>a{
+	line-height: 0.5rem;
+	text-align: center;
+	font-size:0.266rem;
+	color: #ddd;
+	font-family: "SimSum";
+}
+.wait{
+	width: 94%;
+	height: 1.609rem;
+	padding: 0 3%;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+.wait li{
+	width:25%; 
+	height: 0.625rem;
+	padding-top: 0.984rem;
+	text-align: center;
+	position: relative;
+	color: #c2c2c2;
+}
+.wait li:nth-of-type(1){
+	background:url(../img/personal/icon_2.png) center 0.328rem no-repeat;
+	background-size:0.547rem 0.547rem;
+}
+.wait li:nth-of-type(2){
+	background:url(../img/personal/icon_3.png) center 0.328rem no-repeat;
+	background-size:0.547rem 0.547rem;
+	
+}
+.wait li:nth-of-type(3){
+	background:url(../img/personal/icon_4.png) center 0.328rem no-repeat;
+	background-size:0.547rem 0.547rem;
+}
+.wait li:nth-of-type(4){
+	background:url(../img/personal/icon_5.png) center 0.328rem no-repeat;
+	background-size:0.547rem 0.547rem;
+	
+}
+.wait li span{
+	width: 0.328rem;
+	height: 0.328rem;
+	display: block;
+	background: #ff2150;
+	border-radius: 100px;
+	position:absolute;
+	top:0.25rem;right:0.781rem;
+	line-height:  0.328rem;
+	text-align: center;
+	color: #fff;
+	font-size: 0.188rem;
+}
+
+.account li span{
+	display: block;
+	width:2.062rem;
+	height:0.594rem;
+	text-align:left;
+	text-indent:0.547rem;
+	line-height:0.594rem;
+	color: #333333;
+
+
+}
+.account li a{
+	font-family:'SimSum';
+	font-size: 0.391rem;
+	color: #333333;
+}
+.account{
+	width: 94%;
+	padding: 0 3%;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+.account li{
+	display:flex;
+	width: 100%;
+	height: 0.922rem;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.account li:nth-of-type(1) span{
+	background: url(../img/personal/icon_price.png) 0 center no-repeat;
+	background-size: 0.391rem 0.391rem;
+}
+.account li:nth-of-type(2) span{
+	background: url(../img/personal/icon_point.png) 0 center no-repeat;
+	background-size: 0.391rem 0.391rem;
+}
+.account li:nth-of-type(3) span{
+	background: url(../img/personal/icon_coupon.png) 0 center no-repeat;
+	background-size: 0.391rem 0.391rem;
+}
+.manage{
+	width: 100%;
+
+}
+.manage li{
+	display:flex;
+	width: 100%;
+	height: 0.922rem;
+	justify-content:space-between;
+	align-items:center;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	margin-top:0.469rem;
+
+}
+.manage li span{
+	padding-left:3%;
+	width: 2.656rem;
+	height: 0.562rem;
+	display: block;
+	text-align: left;
+	text-indent: 0.547rem;
+	line-height: 0.562rem;
+}
+.manage li a{
+	padding-right:3%;
+	font-family:"SimSum";
+}
+.manage li:nth-of-type(1) span{
+	background: url(../img/personal/icon_add.png) 0.312rem center no-repeat;
+	background-size: 0.391rem 0.391rem;
+}
+.manage li:nth-of-type(2) span{
+	background: url(../img/personal/icon_waiter.png) 0.312rem center no-repeat;
+	background-size: 0.391rem 0.391rem;
+}

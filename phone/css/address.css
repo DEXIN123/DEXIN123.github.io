@@ -1,0 +1,101 @@
+body,html{
+	width: 100%;height: 100%;
+	background: #fff;
+}
+.container{
+	width: 100%;height: 100%;
+	box-sizing: border-box;
+	padding:1.234rem 0 ;
+	position: relative;
+}
+header{
+	position: absolute;
+	top:0;left:0;
+	width: 94%;
+	height: 1.234rem;
+	padding:0 3%;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	font-size:0.469rem;
+	border-bottom:1px solid #eee; 
+}
+header>a{
+	font-family: "SimSum";
+
+}
+.sure_add{
+	width: 100%;
+	border-bottom:2px solid #eee; 
+	margin-bottom: 0.312rem;
+}
+
+.sure_add>ul{
+	padding:0 3%;
+	width: 94%;
+	height: 100%;
+}
+.sure_li1{
+	width: 100%;
+	height: 100%;
+	border-bottom:1px solid #eee; 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.sure_li1 div p:nth-of-type(1){
+	margin:0.1425rem 0;
+	font-size:0.438rem;
+
+}
+.sure_li1 div p em{
+	margin-left: 0.8125rem;
+}
+
+.sure_li1 div p:nth-of-type(2){
+	color: #999;
+	font-size:0.312rem;
+	margin-bottom:0.156rem;
+}
+.sure_li2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 0.875rem;
+}
+.sure_li2 i{
+	display:inline-block;
+	width: 0.391rem;height: 0.391rem;
+	border:1px solid #CCC;
+	border-radius:100px;
+	text-align:center;
+	line-height:0.391rem; 
+	background:#fff;
+	color: #fff;
+	margin-right:0.234rem;
+}
+.sure_li2 .red{
+	color: #fff;
+	background:#ff2150;
+	border:1px solid #ff2150;
+}
+.white{
+	background:#fff;
+	border:1px solid #fff;
+}
+
+.sure_li2 p:nth-of-type(2) em,.sure_li2 p:nth-of-type(2) span{
+	display: inline-block;
+	width:1.25rem;
+	height:0.469rem;
+	text-indent:0.469rem;
+	line-height:0.469rem;
+} 
+.sure_li2 p:nth-of-type(2) em{
+	background: url(../img/icon_pen.png) 0 center no-repeat;
+	background-size:0.312rem 0.312rem;
+}
+.sure_li2 p:nth-of-type(2) span{
+	background: url(../img/icon_cancel.png) 0 center no-repeat;
+	background-size:0.312rem 0.312rem;
+}

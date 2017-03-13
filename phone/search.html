@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>搜索框</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta content="telephone=no,email=no" name="format-detection">
+	<meta name="wap-font-scale" content="no">
+
+	<script src="js/flexible.js"></script>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/search.css">	
+</head>
+<body>
+
+<div id="popping">
+	<header>
+		<a href="javascript:void(0);" class="back"> < </a>
+
+		<form action="" class="form">
+			<input class="search_input" type="text" placeholder="进口生鲜今日三折起售">
+			<em></em>
+		</form>
+
+		<span class="delete">取消</span>
+	</header>
+
+	<div class="content">
+		<div class="title">
+			<img src="img/icon_search2.png" alt="">
+			<p>最近搜索</p>
+			<span class="clear"></span>
+		</div>
+
+		<ul class="content-ul fixclear">
+		</ul>
+
+	</div> 
+<!-- the best hit! 热门推荐 -->
+	<div class="hit">
+		<p>热门推荐</p>
+
+
+		<ul class="hit-ul fixclear">
+			<li>水杯</li>
+			<li>羽绒服</li>
+			<li>马克杯</li>
+			<li>羽绒服</li>
+			<li>马克杯</li>
+			<li>彩色铅笔</li>
+			<li>0.28极细捡钱比</li>
+			<li>水杯</li>
+			
+			<li>彩色铅笔</li>
+			<li>0.28极细捡钱比</li>
+		</ul>
+	</div>
+</div>
+<script src="js/localforage.min.js"></script>
+	
+<script src="js/search.js"></script>
+</body>
+</html>

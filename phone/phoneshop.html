@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta content="telephone=no,email=no" name="format-detection">
+	<meta name="wap-font-scale" content="no">
+	<title>移动商城</title>
+	<script src="js/flexible.js"></script>
+	
+	<link rel="stylesheet" href="css/search.css">
+	<link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+
+<div id="popping" >
+	<header>
+		<a href="javascript:window.history.back();" class="back"> < </a>
+
+		<form action="" class="form">
+			<input  class="search_input" type="text" placeholder="进口生鲜今日三折起售">
+			<em></em>
+		</form>
+
+		<span class="delete">取消</span>
+	</header>
+
+	<div id="content">
+		<div class="title">
+			<img src="img/icon_search2.png" alt="">
+			<p>最近搜索</p>
+			<span class="clear"></span>
+		</div>
+
+		<ul class="content-ul fixclear">
+		</ul>
+
+	</div> 
+<!-- the best hit! 热门推荐 -->
+	<div class="hit">
+		<p>热门推荐</p>
+
+
+		<ul class="hit-ul fixclear">
+			<li>水杯</li>
+			<li>羽绒服</li>
+			<li>马克杯</li>
+			<li>羽绒服</li>
+			<li>马克杯</li>
+			<li>彩色铅笔</li>
+			<li>0.28极细捡钱比</li>
+			<li>水杯</li>
+			
+			<li>彩色铅笔</li>
+			<li>0.28极细捡钱比</li>
+		</ul>
+	</div>
+</div>
+
+<script src="js/localforage.min.js"></script>
+	
+<script src="js/search.js"></script>
+
+<div class="container">
+
+	<div id="top_src">
+		<div class="bg_logo"><img src="img/logo/logo_1.png" alt=""></div>
+		<form action="">
+			<input class="input_focus" type="text" value="" placeholder="搜索商品/店铺"><a href="login.html">登录</a>
+		</form>
+	</div>
+
+	<div class="content">
+
+
+			<!--banner-->
+		<div id="banner" class="banner">
+			<div class="hd">
+				<ul>
+				</ul>
+			</div>
+			<div class="bd">
+				<ul>
+					<li><a href="#"><img class="imgWH" src="img/banner/banner1.png" alt=""></a></li>
+					<li><a href="#"><img class="imgWH" src="img/banner/banner2.png" alt=""></a></li>
+					<li><a href="#"><img class="imgWH" src="img/banner/banner3.png" alt=""></a></li>
+					<li><a href="#"><img class="imgWH" src="img/banner/banner4.png" alt=""></a></li>
+					<li><a href="#"><img class="imgWH" src="img/banner/banner5.png" alt=""></a></li>
+					<li><a href="#"><img class="imgWH" src="img/banner/banner6.png" alt=""></a></li>
+					<li><a href="#"><img class="imgWH" src="img/banner/banner7.png" alt=""></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--banner end-->
+		
+		<div id="nav">
+			<ul class="nav1">
+				<li>
+					<a class="ru_bg1" href="#"><img class="imgWH1" src="img/rukou/1.png" alt="品牌"></a>
+					
+				</li>
+				<li>
+					<a class="ru_bg2"  href="#"><img class="imgWH2"  src="img/rukou/2.png" alt="闪电"></a>
+					
+				</li>
+				<li>
+					<a class="ru_bg3"  href="#"><img class="imgWH3"  src="img/rukou/3.png" alt="优惠券"></a>
+				</li>
+				<li>
+					<a class="ru_bg4"  href="#"><img class="imgWH4"  src="img/rukou/4.png" alt="签到"></a>
+				</li>
+			</ul>
+			<ul class="nav_text1">
+				<li><a href="#">今日特惠</a></li>
+				<li><a href="#">全球购</a></li>
+				<li><a href="#">充值中心</a></li>
+				<li><a href="#">全球购</a></li>
+			</ul>
+
+			<ul class="nav2">
+				<li><a class="ru_bg5"  href="#"><img class="imgWH5"  src="img/rukou/5.png" alt="积分"></a></li>
+				<li><a class="ru_bg6"  href="#"><img class="imgWH6"  src="img/rukou/6.png" alt="充值"></a></li>
+				<li><a class="ru_bg7"  href="#"><img class="imgWH7"  src="img/rukou/7.png" alt="全球购"></a></li>
+				<li><a class="ru_bg8"  href="#"><img class="imgWH8"  src="img/rukou/8.png" alt="特惠"></a></li>
+			</ul>
+
+			<ul class="nav_text2">
+				<li><a href="#">签到</a></li>
+				<li><a href="#">优惠券</a></li>
+				<li><a href="#">闪电购</a></li>
+				<li><a href="#">品牌街</a></li>
+			</ul>
+		</div>
+
+		<div class="hotnews">
+			<img src="img/logo/icon_hot.png" alt="热门咨询">
+
+			<ul class="newsAuto">
+				<li><a href="#">我在容器上盖了一片聚乙烯塑料薄!!!</a></li>
+				<li><a href="#">英语常见容器类量词_英语学!!!</a></li>
+				<li><a href="#">沪江英语网是免费的英语学习网!!!</a></li>
+				<li><a href="#"> 英语口语 英语知识英文英!!!</a></li>
+			</ul>
+		</div>
+		
+		<div class="time_wrap">
+			<div class="time">
+				<p class="time_1"><i>限时</i>抢购<em>01:15:37</em></p>
+				<p  class="time_2"><span><a href="goodslist.html">全场1折起</a></span><img src="img/logo/icon_arr.png" alt=""></p>
+			</div>	
+
+				<ul class="time_list">
+					<li>
+						<img src="img/list/time_list_01.png" alt="">
+						<p><a class="fz" href="#">电饭煲</a></p>
+					</li>
+					<li>
+						<img src="img/list/time_list_02.png" alt="">
+						<p><a class="fz" href="#">包包</a></p>
+					</li>
+					<li>
+						<img src="img/list/time_list_03.png" alt="">
+						<p><a class="fz" href="#">优质水杯</a></p>
+					</li>
+					<li>
+						<img src="img/list/time_list_04.png" alt="">
+						<p><a class="fz" href="#">充电宝</a></p>
+					</li>
+				</ul>
+		</div>
+
+		<div class="cm">
+			<img src="img/list/cm.png" alt="广告条">
+		</div>
+		<!-- 全球钩 -->
+		<div class="earth">
+			<ul class="earth1 clear">
+				<li>
+					<div class="earth_text1">
+						<a href="#">全球购</a>
+						<a href="#">全球好货这里都有</a>
+						<a href="#">享购全球</a>
+					</div>
+
+					<img src="img/list/pic_poket.png" alt="">
+				</li>
+
+				<li>
+					<div  class="earth_text2">
+						<a href="#">积分换购</a>
+						<a href="#">用积分更划算</a>
+					</div>
+
+					<img src="img/list/pic_nabe.png" alt="">
+				</li>
+
+				<li>
+					<div class="earth_text3">
+						<a href="#">品牌节</a>
+						<a href="#">大牌这里都有</a>
+					</div>
+					
+					<img src="img/list/pic_eye.png" alt="">
+				</li>
+			</ul>
+
+			<ul class="earth2 clear">	
+				<li>
+					<div class="earth_text1">
+						<a href="#">闪电狗</a>
+						<a href="#">全球好货这里都有</a>
+						<a href="#">手快有手慢无</a>
+					</div>
+
+					<img src="img/list/pic_coat.png" alt="">
+				</li>
+
+				<li>
+					<div  class="earth_text2">
+						<a href="#">积分换购</a>
+						<a href="#">用积分更划算</a>
+					</div>
+
+					<img src="img/list/pic_friut.png" alt="">
+				</li>
+
+				<li>
+					<div class="earth_text3">
+						<a href="#">品牌节</a>
+						<a href="#">大牌这里都有</a>
+					</div>
+					
+					<img src="img/list/pic_wumen.png" alt="">
+				</li>
+			</ul>
+		</div>
+<!-- 品牌特卖 -->
+
+	<div class="brand">
+		<div class="brand_title clear">
+			<h3><i>品牌</i>特卖</h3>
+			<p>知名品牌，特价销售</p>
+			<span> 更多> </span> 
+		</div>
+
+		<div class="brand_img clear">
+			<div class="brand_img1">
+				<a href="#"><img src="img/list/pic_pinpai_001.png" alt=""></a>
+			</div>
+
+			<ul class="brand_img2">
+				<li><a href="#"><img class="brand_img2_1" src="img/list/pic_pinpai_01.png" alt=""></a></li>
+				<li><a href="#"><img class="brand_img2_2" src="img/list/pic_pinpai_02.png" alt=""></a></li>
+				<li><a href="#"><img class="brand_img2_3" src="img/list/pic_pinpai_03.png" alt=""></a></li>
+				<li><a href="#"><img class="brand_img2_4" src="img/list/pic_pinpai_04.png" alt=""></a></li>
+			</ul>
+		</div>
+	</div>
+
+
+	<!-- 热门主体 -->
+	<div class="brand clear">
+		<div class="brand_title clear">
+			<h3><i>热门</i>主体</h3>
+			<p>太热门了，要挤爆了</p>
+			<span> 更多> </span> 
+		</div>
+
+		<div class="brand_img clear brand_img_re">
+			<div class="brand_img1 brand_img1_re">
+				<div class="re_text">
+					<a href="#">年货节</a>
+					<a href="#">年货全场，买二送一</a>
+					<a href="#">囤货走起</a>
+				</div>
+				<a href="#"><img class='brand_img1_re_img' src="img/nianhuo/pic_goods.png" alt=""></a>
+			</div>
+
+			<ul class="brand_img2 brand_2 clear">
+				<li>
+					<a href="#">女人衣柜</a>
+					<a href="#">少的那一件在这</a>
+				</li>
+				<li>
+					<a href="#">数码</a>
+					<a href="#">佳能全场八折起</a>
+				</li>
+				<li>
+					<a href="#">床上用品</a>
+					<a href="#">“冬眠”更舒适</a>
+				</li>
+				<li>
+					<a href="#">美妆</a>
+					<a href="#">年终钜惠</a>
+				</li>
+		
+			</ul>
+
+			<ul class="brand_3 clear">
+				<li><a href="#"><img src="img/nianhuo/images/1.png" alt=""></a></li>
+				<li><a href="#"><img src="img/nianhuo/images/2.png" alt=""></a></li>
+				<li><a href="#"><img src="img/nianhuo/images/3.png" alt=""></a></li>
+				<li><a href="#"><img src="img/nianhuo/images/4.png" alt=""></a></li>
+			</ul>
+		</div>
+	</div>
+
+
+
+	<!-- 热门主体 end -->
+
+	<!-- 猜你喜欢 -->
+	<div class="like">
+		猜你喜欢
+	</div>
+
+	<div class="like-list">
+			<ul id="like-ul">
+				<li>
+					<a href="#">
+						<img src="img/goods/list_01.png">
+						<p>商城开业狂欢！四重四重大礼等你来抢！</p>
+						<span><i>￥</i>29.9</span><s>￥49.9</s>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/goods/list_02.png">
+						<p>韩国代购正品超爆款 休闲迷 彩磨砂真皮运动鞋女单鞋</p>
+						<span><i>￥</i>29.9</span><s>￥49.9</s>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/goods/list_03.png">
+						<p>纯手工打造紫砂茶壶煮茶神器 优质好茶休闲养生</p>
+						<span><i>￥</i>29.9</span><s>￥49.9</s>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/goods/list_04.png">
+						<p>金号床品家纺舒特曼S1206紫 灰色两条装纯棉毛巾</p>
+						<span><i>￥</i>29.9</span><s>￥49.9</s>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+
+
+
+
+		
+
+
+		<div id="footer">
+			<ul>
+				<li><a href="phoneshop.html">首页</a></li>
+				<li><a href="#">发现</a></li>
+				<li><a href="shopcar.html">购物车</a></li>
+				<li><a href="personal.html">我的</a></li>
+			</ul>	
+
+		</div>
+
+	</div>
+
+</div>
+
+<!-- <script>
+	function setRem(){
+		var root = document.documentElement;
+		var width = window.innerWidth;
+		var size = width / 10 ;
+		root.style.fontSize = size + "px";
+	} 
+	setRem();
+	window.onresize = function(){
+		setRem();
+	}
+
+</script> -->
+<script src="js/TouchSlide.js"></script>
+<script src="js/ajax.js"></script>	
+<script>
+		
+	(function(){
+
+		// 顶部的banner
+		TouchSlide({
+			slideCell:"#banner",
+			titCell:".hd ul", 
+			mainCell:".bd ul", 
+			effect:"leftLoop", 
+			autoPlay:true,
+			autoPage:true 
+		});
+
+
+	}());
+
+	</script>	
+
+</body>
+</html>

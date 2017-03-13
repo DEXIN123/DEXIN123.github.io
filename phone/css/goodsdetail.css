@@ -1,0 +1,168 @@
+html,body{
+	width: 100%;height: 100%;
+}
+.common1{
+	width: 94%;
+	height: 1.266rem;
+	border-bottom:1px solid #eee; 
+	padding: 0 3%;
+	display: flex;
+}
+.fixclear:after{
+	display: block;
+	height: 0;
+	content: " ";
+	clear: both;
+	overflow: hidden
+}
+
+.common1 a{
+	display: block;
+	height: 100%;
+	width: 0.625rem;
+	line-height:1.266rem;
+	font-size:23px;
+	font-family:"SimSun";
+	color: #9e9c9c;
+}
+.common1 span{
+	display: block;
+	line-height: 1.266rem;
+	width:0.906rem;
+	text-align: right;
+	color: #9e9c9c;
+}
+
+.common1 form{
+	flex: 1;
+	position: relative;
+}
+
+.common1 form em{
+	display: block;
+	width: 0.422rem;
+	height:100%;
+	background: url(../img/icon_search1.png) 0 center no-repeat;
+	position: absolute;
+	top:0;right: 10px;
+	background-size: 100%;
+}
+.common1 form input{
+	width: 100%;
+	height: 0.781rem;
+	outline: none;
+	padding-left: 10px;
+	box-sizing: border-box;
+	position: absolute;
+	top:50%;margin-top:-0.39rem;
+	color: #9e9c9c;
+	border-radius:5px; 
+	background: #f7f7f7;
+	border: 0;
+}
+
+.common2{
+	width: 100%;
+	height: 0.938rem;
+	display: flex;
+	justify-content: space-between;
+	line-height:  0.938rem;
+	font-size: 0.344rem;
+	border-bottom:1px solid #eee; 
+}
+.common2 li {
+	width: 25%;
+	border-bottom:2px solid #fff; 
+	text-align: center;
+}
+.price{
+	display:inline-block;
+	width:0.188rem;height:0.266rem;
+	background: url(../img/icon_updown.png) 0 0 no-repeat;
+	background-size:100%;
+	margin: 0 0.125rem;
+}
+
+.container{
+	width: 100%;height: 100%;
+	position: relative;
+	padding-top:2.203rem;
+	box-sizing:border-box;
+}
+.header{
+	width: 100%;
+	height: 2.203rem;
+	position: absolute;
+	top: 0;left:0;
+	background:#fff; 
+	z-index: 999;
+}
+
+.content{
+	width: 100%;
+	height: 100%;
+	background: #f7f7f7;
+	overflow-x:hidden;
+
+
+}
+.shop{
+	margin-top: 0.344rem;
+	padding: 0 3%;
+	border-top:1px solid #eee; 
+}
+.shop_title{
+	display: flex;
+}
+.shop_title img{
+	width: 0.938rem;
+	height: 0.938rem;
+	margin:0.344rem 0 ;
+}
+.shop_title a{
+	display: block;
+	width: 1.562rem;
+	height: 0.562rem;
+	line-height: 0.562rem;
+	text-align: center;
+	color: red;
+	border: 1px solid red;
+	border-radius: 5px;
+	margin-top: 0.5rem;
+}
+.shop_title div{
+	flex:1;
+	text-indent:0.469rem;
+} 
+.shop_title div h6{
+	font-size: 0.312rem;
+	padding:0.312rem 0 0.188rem 0;
+	color: #999;
+}
+.shop_title div p{
+	font-size: 0.234rem;
+	color: #999;
+}
+.shop_con{
+	display: flex;
+	justify-content:space-between;
+}
+.shop_con li{
+	width:2.188rem;height: 2.188rem;
+	position:relative;
+}
+.shop_con li img{
+	width:2.188rem;height: 2.188rem;
+	position: absolute;
+	top:0;left: 0;
+}
+.shop_con li span{
+	display:block;
+	text-align:center;
+	color: #fff;
+	line-height:0.469rem; 
+	width:1.094rem;height:0.469rem;
+	background: rgba(89,89,89,0.7);
+	position: absolute;
+	bottom: 0;right: 0;
+}

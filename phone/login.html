@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta content="telephone=no,email=no" name="format-detection">
+	<meta name="wap-font-scale" content="no">
+	<title>移动商城</title>
+	<script src="js/flexible.js"></script>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/login.css">
+
+</head>
+<body>
+<div class="container">
+
+
+<div id="header">
+	<a href="javascript:window.history.back();"> < </a> <h2><a href="login.html"> 登录</a></h2>
+</div>
+
+<div class="content">
+	<form action="" method="post">
+
+		<p class="form-item"><input type="text" placeholder="用户名/邮箱/手机号"  name="username"></p>
+
+		<div class="form-item">
+			<p class="form-item"><input type="password" placeholder="请输入密码" name="password"></p>
+
+			<div class="psw-ctrl">
+				<span></span>
+			</div>
+		</div>
+
+		<p class="form_item"><input type="vcode" placeholder="请输入验证码" name="vcode"><img src="img/icon_yan.png" alt="" id="#vcode-img">
+</p>
+		
+		<input type="submit" value="登录" class="submit" >
+
+	</form>
+
+	<div class="form-btm">
+		<a href="register.html">快速注册</a>
+	</div>
+	
+</div>
+
+</div>
+	<script src="js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+
+#popping{
+	width: 100%;height: 100%;
+	position:fixed;
+	top:100%;left:0;
+	z-index: 9999;
+	background: #fff;
+
+}
+
+
+#popping header{
+	padding: 0 3%;
+	height: 1.266rem;
+	border-bottom:1px solid #eee; 
+	display: flex;
+}
+.fixclear:after{
+	display: block;
+	height: 0;
+	content: " ";
+	clear: both;
+	overflow: hidden
+}
+
+#popping header a{
+	display: block;
+	height: 100%;
+	width: 0.625rem;
+	line-height:1.266rem;
+	font-size:23px;
+	font-family:"SimSun";
+	color: #9e9c9c;
+}
+#popping header span{
+	display: block;
+	line-height: 1.266rem;
+	width:0.906rem;
+	text-align: right;
+	color: #9e9c9c;
+}
+
+#popping header form{
+	flex: 1;
+	position: relative;
+}
+
+#popping header form em{
+	display: block;
+	width: 0.422rem;
+	height:100%;
+	background: url(../img/icon_search1.png) 0 center no-repeat;
+	position: absolute;
+	top:0;right: 10px;
+	background-size: 100%;
+}
+#popping header form input{
+	width: 100%;
+	height: 0.781rem;
+	outline: none;
+	padding-left: 10px;
+	box-sizing: border-box;
+	position: absolute;
+	top:50%;margin-top:-0.39rem;
+	color: #9e9c9c;
+	border-radius:5px; 
+	background: #f7f7f7;
+	border: 0;
+}
+#popping #content{
+	padding: 0 3%;
+	width: 94%;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+#popping #content .title{
+	width: 100%;
+	height: 1.562rem;
+	display:flex;
+}
+#popping .title>img{
+	width: 0.406rem;
+	height: 0.406rem;
+	margin-top:0.594rem;
+}
+
+#popping #content .title p{
+	display:block;
+	line-height:1.562rem;
+	font-size:0.281rem;
+	flex: 1;
+	text-indent: 0.234rem;
+}
+#popping .clear{
+	display: block;
+	width:0.406rem;
+	height:0.406rem;
+	background: url(../img/icon_search3.png) 0 center no-repeat;
+	background-size:100%;
+	margin-top:0.594rem;
+}
+#popping .content-uls{
+	clear:both;
+}
+#popping .content-ul li{
+	float: left;
+	color: #333;
+	margin: 0.047rem 0.156rem;
+	padding: 0.047rem 0.156rem;
+	border: 1px solid #ccc;
+	border-radius:5px;
+}
+
+#popping .hit{
+	padding: 0 3%;
+}
+#popping .hit p{
+	display: block;
+	height: 1.094rem;
+	line-height: 1.094rem;
+	padding-left: 0.625rem;
+	font-size: 0.312rem;
+	background:url(../img/icon_search4.png) 0.047rem center no-repeat;
+	background-size: 0.469rem;
+}
+
+#popping .hit-ul li {
+	float: left;
+	color: #333;
+	margin: 0.047rem 0.156rem;
+	padding: 0.047rem 0.156rem;
+	border: 1px solid #ccc;
+	border-radius:5px;
+}
